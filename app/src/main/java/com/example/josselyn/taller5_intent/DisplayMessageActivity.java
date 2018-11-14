@@ -18,7 +18,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         // Capture the layout's TextView and set the string as its text
         TextView textView = findViewById(R.id.txt_welcome);
-        textView.setText("Bienvenido, "+message[0]);
+        textView.setText("Bienvenido, \n"+message[0]);
         TextView textView2 = findViewById(R.id.txt_welcome_pass);
         textView2.setText("Contraseña: "+message[1]);
         TextView textView3 = findViewById(R.id.txt_welcome_code);

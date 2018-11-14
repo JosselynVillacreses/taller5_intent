@@ -4,33 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/background_light"
     tools:context=".DisplayMessageActivity">
 
     <TextView
         android:id="@+id/txt_welcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="106dp"
-        android:layout_marginLeft="106dp"
+        android:layout_width="299dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
         android:layout_marginTop="16dp"
         android:text="TextView"
+        android:textColor="@android:color/holo_blue_dark"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txt_welcome_pass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="296dp"
+        android:layout_height="49dp"
         android:layout_marginTop="152dp"
         android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/txt_welcome_code"
         app:layout_constraintStart_toStartOf="@+id/txt_welcome_code"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txt_welcome_code"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="299dp"
+        android:layout_height="77dp"
         android:layout_marginStart="47dp"
         android:layout_marginLeft="47dp"
         android:layout_marginTop="45dp"
